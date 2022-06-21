@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block title %}Creator{% endblock %} {% block content
+    %}
+  <div class="content">
+
+   
+    <p align="center" style="margin: 20px;"><a href="https://github.com/nurdax">GitHub</a></p>
+<section class="mb-4" style="margin-left:20%; ">
+    
+    <div class="row">
+      <div class="col-md-9 mb-md-0 mb-5" >
+          <form id="contact-form" action="{{url_for('send_message')}}" required method="POST">
+            <input type="email" id="email" name="email" class="form-control" placeholder="Your email" style="margin: 10px;">
+            <input type="text" id="subject" placeholder="Subject" name="subject" class="form-control" style="margin: 10px;">
+            <textarea type="email" id="message" placeholder="Your message" name="message" rows="2" class="form-control md-textarea" style="margin: 10px;"></textarea>
+            <input type="submit" class="btn btn-primary" value="Sent message" style="margin: 10px;">
+          </form>
+        </div>  
+  </div>
+
+</section>
+  </div>
+  {% endblock %}

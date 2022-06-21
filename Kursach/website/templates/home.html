@@ -1,0 +1,53 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <div class="content">   
+        <div class="main">
+         
+                <ul id="cardss" >
+                  <li id="cards_itemm">
+                    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                    <div id="cardd">
+                      <div id="card_image"><img src="{{ url_for('static', filename='java.jpg') }}" ></div>
+                      <div id="card_contentt">
+                        <h2 id="card_titlee">Java</h2>
+                        <p id="card_textt">Java course</p>
+                        <a href="/Java" style="text-decoration: none;"><button id="btnn">Begin</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                
+                  <li id="cards_itemm">
+                    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                    <div id="cardd">
+                      <div id="card_image"><img src="{{ url_for('static', filename='python.jpg') }}" ></div>
+                      <div id="card_contentt">
+                        <h2 id="card_titlee">Python</h2>
+                        <p id="card_textt">Python course</p>
+                        <a href="/Python"><button id="btnn">Begin</button></a>
+                      </div>
+                    </div>
+                    </div>
+                  </li>
+                  <li id="cards_itemm">
+                    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                    <div id="cardd">
+                      <div id="card_image"><img src="{{ url_for('static', filename='cpp.jpg') }}" ></div>
+                      <div id="card_contentt">
+                        <h2 id="card_titlee">C++</h2>
+                        <p id="card_textt">C++ course</p>
+                        <a href="/CPP"><button id="btnn">Begin</button></a>
+                      </div>
+                    </div>
+                    </div>
+                  </li>
+           
+                </ul>
+              </div>
+    
+        
+    
+    </div>
+
+{% endblock %}
+

@@ -1,0 +1,110 @@
+@media all and (max-width:900px) {
+.ml{
+    display: none;
+    
+}
+nav{
+    margin-left: -10px;
+    margin-right: -10px;
+   
+    padding-left: 5px;
+    
+}
+#mll{
+    display: inline-block;
+    
+}
+#vid{
+    padding:10px;
+}
+#mdrop{
+    background: rgba(30, 30, 30, 0.815);
+    list-style: none;
+    position: fixed;
+    width: 110%;
+    margin-top: 72px;
+    height: 180px;
+    z-index: 9999;
+}
+#mdrop li{
+    margin: 10px;
+
+}
+.web{
+    color:rgb(40, 40, 40);
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-transform: inherit;
+    writing-mode: inherit;
+    margin-top: 0px;
+    float: none;
+    text-align: center;
+
+}
+.web1{
+    color:#fff;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-transform: inherit;
+    writing-mode: inherit;
+    margin-top: 0px;
+    float: none;
+    text-align: center;
+    margin-left: 25px;
+
+}
+
+#maa{
+    font-size: 23px;
+    color: rgb(204, 204, 204);
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    #maa:hover{
+        border:none;
+        border-radius:20px;
+        background:rgb(49, 49, 49);
+        color:rgb(238, 238, 238);
+    
+    }
+    #maa:active{
+        background:rgb(37, 37, 37);
+        color: rgb(255, 255, 255);
+    }
+    #mass{
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+        padding: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    #mass:active{
+      
+        color: rgb(238, 238, 238);
+        padding: 12px;
+            
+        }
+
+
+        .cardbtn{
+            color: #000;
+            border:1px solid #000;
+            background: rgb(255, 255, 255);
+            border-radius: 15px;
+            width: 120px;
+            height: 40px;
+            margin-left: 75px;
+            outline: none;
+            
+          
+        }
+ 
+    /* Малые девайсы («ландшафтные телефоны», >= 576px)*/
+    @media (min-width: 576px) {  
+        
+    }
+    /* Средние девайсы («таблетки», >= 768px)*/
+    @media (min-width: 768px) { 
+
+    }
+}
